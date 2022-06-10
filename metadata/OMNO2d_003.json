@@ -1,0 +1,331 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Atmospheric Chemistry", "Total Column Nitrogen Dioxide (NO2)", "Tropospheric Nitrogen Dioxide", "Air Quality", "Pollutant", "EOSDIS" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Nickolay A. Krotkov, Lok N. Lamsal, Sergey V. Marchenko, Edward A. Celarier, Eric J.Bucsela, William H. Swartz, Joanna Joiner and the OMI core team",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/OMNO2d_003.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "OMI/Aura NO2 Cloud-Screened Total and Tropospheric Column L3 Global Gridded 0.25 degree x 0.25 degree V3",
+    "SeriesName" : "OMNO2d",
+    "ReleaseDate" : "2019-12-09T00:00:00.000Z",
+    "Version" : "003",
+    "ReleasePlace" : "NASA Goddard Space Flight Center"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -180,
+          "NorthBoundingCoordinate" : 90,
+          "EastBoundingCoordinate" : 180,
+          "SouthBoundingCoordinate" : -90
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "ACTIVE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "ATMOSPHERE",
+    "Term" : "ATMOSPHERIC CHEMISTRY",
+    "VariableLevel1" : "NITROGEN COMPOUNDS",
+    "VariableLevel2" : "NITROGEN DIOXIDE"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "2004-10-01T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : true
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "3"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/Aura/OMI/DATA3007"
+  },
+  "ShortName" : "OMNO2d",
+  "EntryTitle" : "OMI/Aura NO2 Cloud-Screened Total and Tropospheric Column L3 Global Gridded 0.25 degree x 0.25 degree V3 (OMNO2d) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Lamsal, L. N., Krotkov, N. A., Vasilkov, A., Marchenko, S., Qin, W., Yang, E.-S., Fasnacht, Z., Joiner, J., Choi, S., Haffner, D., Swartz, W. H., Fisher, B., and Bucsela, E.",
+    "PublicationDate" : "2021-01-01T00:00:00.000Z",
+    "Title" : "Ozone Monitoring Instrument (OMI) Aura nitrogen dioxide standard product version 4.0 with improved surface and cloud treatments",
+    "Series" : "Atmos. Meas. Tech.",
+    "DOI" : {
+      "DOI" : "10.5194/amt-14-455-2021"
+    }
+  } ],
+  "Quality" : "The global gridded product uses only good quality data. This Data set is not fully validated yet.  Before using it in any trend analysis please contact algorithm team leads for the current known problems and updates.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "RelatedUrls" : [ {
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMNO2d_003.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "Type" : "DATA SET LANDING PAGE",
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/OMNO2d_003.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "Type" : "GET DATA",
+    "Subtype" : "DATA TREE",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level3/OMNO2d.003",
+    "Description" : "Access the data via HTTPS.",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "GET DATA",
+    "Subtype" : "Earthdata Search",
+    "URL" : "https://search.earthdata.nasa.gov/search?q=OMNO2d_003",
+    "Description" : "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "OPENDAP DATA",
+    "URL" : "https://acdisc.gsfc.nasa.gov/opendap/HDF-EOS5/Aura_OMI_Level3/OMNO2d.003/contents.html",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "VIEW RELATED INFORMATION",
+    "Subtype" : "READ-ME",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/data/Aura_OMI_Level3/OMNO2d.003/doc/README.OMNO2.pdf",
+    "Description" : "README Document",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Type" : "VIEW RELATED INFORMATION",
+    "Subtype" : "READ-ME",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/README.OMI_DUG.pdf",
+    "Description" : "OMI Data User's Guide",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Type" : "VIEW RELATED INFORMATION",
+    "Subtype" : "PI DOCUMENTATION",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/OMI/3.3_ScienceDataProductDocumentation/3.3.2_ProductRequirements_Designs/OMNO2d_FileSpec_V003.pdf",
+    "Description" : "File Specification Document",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Type" : "PROJECT HOME PAGE",
+    "URL" : "https://aura.gsfc.nasa.gov/",
+    "Description" : "Aura Project Home Page",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "Type" : "PROJECT HOME PAGE",
+    "URL" : "http://projects.knmi.nl/omi/research/news/newsWrap.php?language=only_enhttps://www.knmi.nl/omitimeFrame=latesthttps://www.knmi.nl/omichoise=page",
+    "Description" : "OMI KNMI Home Page",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "Type" : "VIEW RELATED INFORMATION",
+    "Subtype" : "PUBLICATIONS",
+    "URL" : "https://projects.knmi.nl/omi/research/documents/",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB MAP SERVICE (WMS)",
+    "URL" : "https://disc1.gsfc.nasa.gov/daac-bin/wms_omi?service=WMS&version=1.1.1&request=GetCapabilities",
+    "Description" : "WEB MAP SERVICE (WMS) GetCapabilities operation",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB MAP SERVICE (WMS)",
+    "URL" : "https://disc1.gsfc.nasa.gov/daac-bin/wms_omi?version=1.1.1&service=WMS&request=GetMap&SRS=EPSG:4326&WIDTH=1000&HEIGHT=500&LAYERS=OMNO2d_ColumnAmountNO2&TRANSPARENT=TRUE&FORMAT=image/png&bbox=-180,-90,180,90&time=2013-09-02",
+    "Description" : "Get map from GES DISC WMS for OMNO2d:ColumnAmountNO2",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB MAP SERVICE (WMS)",
+    "URL" : "https://disc1.gsfc.nasa.gov/daac-bin/wms_omi?version=1.1.1&service=WMS&request=GetMap&SRS=EPSG:4326&WIDTH=1000&HEIGHT=500&LAYERS=OMNO2d_ColumnAmountNO2_CloudScreened&TRANSPARENT=TRUE&FORMAT=image/png&bbox=-180,-90,180,90&time=2013-09-02",
+    "Description" : "Get map from GES DISC WMS for ColumnAmountNO2CloudScreened",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB MAP SERVICE (WMS)",
+    "URL" : "https://disc1.gsfc.nasa.gov/daac-bin/wms_omi?version=1.1.1&service=WMS&request=GetMap&SRS=EPSG:4326&WIDTH=600&HEIGHT=300&LAYERS=OMNO2d_ColumnAmountNO2Trop_CloudScreened&TRANSPARENT=TRUE&FORMAT=image/png&bbox=-180,-90,180,90&time=2013-09-02",
+    "Description" : "Get map from GES DISC WMS for OMNO2d:ColumnAmountNO2TropCloudScreened",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB MAP SERVICE (WMS)",
+    "URL" : "https://disc1.gsfc.nasa.gov/daac-bin/wms_omi?version=1.1.1&service=WMS&request=GetMap&SRS=EPSG:4326&WIDTH=600&HEIGHT=300&LAYERS=OMNO2d_ColumnAmountNO2Trop&TRANSPARENT=TRUE&FORMAT=image/png&bbox=-180,-90,180,90&time=2013-09-02",
+    "Description" : "Get map from GES DISC WMS for  OMNO2d:ColumnAmountNO2Trop",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB COVERAGE SERVICE (WCS)",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/daac-bin/wcsL3?service=WCS&version=1.0.0&request=GetCapabilities",
+    "Description" : "The GetCapabilities operations for the WCS service for OMNO2d",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB COVERAGE SERVICE (WCS)",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/daac-bin/wcsL3?service=WCS&version=1.0.0&request=describeCoverage",
+    "Description" : "The describeCoverage operations for the WCS service for OMNO2d",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB COVERAGE SERVICE (WCS)",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/daac-bin/wcsL3?service=WCS&version=1.0.0&request=getCoverage&CRS=CRS:84&format=netCDF&resx=0.25&resy=0.25&bbox=-179.875,-89.875,179.875,89.875&coverage=OMNO2d:ColumnAmountNO2",
+    "Description" : "Get data from WCS the GES DICS OMI WCS service for OMNO2d:ColumnAmountNO2",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB COVERAGE SERVICE (WCS)",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/daac-bin/wcsL3?service=WCS&version=1.0.0&request=getCoverage&CRS=CRS:84&format=netCDF&resx=0.25&resy=0.25&bbox=-179.875,-89.875,179.875,89.875&coverage=OMNO2d:ColumnAmountNO2CloudScreened",
+    "Description" : "Get data from WCS the GES DICS OMI WCS service for OMNO2d:ColumnAmountNO2CloudScreened",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB COVERAGE SERVICE (WCS)",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/daac-bin/wcsL3?service=WCS&version=1.0.0&request=getCoverage&CRS=CRS:84&format=netCDF&resx=0.25&resy=0.25&bbox=-179.875,-89.875,179.875,89.875&coverage=OMNO2d:ColumnAmountNO2Trop",
+    "Description" : "Get data from WCS the GES DICS OMI WCS service for OMNO2d:ColumnAmountNO2Trop",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "WEB COVERAGE SERVICE (WCS)",
+    "URL" : "https://acdisc.gesdisc.eosdis.nasa.gov/daac-bin/wcsL3?service=WCS&version=1.0.0&request=getCoverage&CRS=CRS:84&format=netCDF&resx=0.25&resy=0.25&bbox=-179.875,-89.875,179.875,89.875&coverage=OMNO2d:ColumnAmountNO2TropCloudScreened",
+    "Description" : "Get data from WCS the GES DICS OMI WCS service for OMNO2d:ColumnAmountNO2TropCloudScreened",
+    "URLContentType" : "DistributionURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2004-10-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2019-11-21T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "This is Level-3 daily global gridded (0.25x0.25 degree) Nitrogen Dioxide Product (OMNO2d). OMNO2d data product is a Level-3 Gridded Product where pixel level data of good quality are binned and \"averaged\" into 0.25x0.25 degree global grids. This product contains Total column NO2 and Total Tropospheric Column NO2, for all atmospheric conditions, and for sky conditions where cloud fraction is less than 30 percent.\n\nNitrogen dioxide is an important chemical species in both, the stratosphere where it plays a key role in ozone chemistry, and in the troposphere where it is a precursor to ozone production. In the troposphere, it is produced in various combustion processes and in lightning and is an indicator of poor air quality.\n\nThe OMNO2d data are stored in version 5 EOS Hierarchical Data Format (HDF-EOS). Each file contains data from the day lit portion of the orbit (~14 orbits). The average file size for the OMNO2d data product is about 12 Mbytes.",
+  "LocationKeywords" : [ {
+    "Category" : "GEOGRAPHIC REGION",
+    "Type" : "GLOBAL"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2013-01-10T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-04-03T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Version" : "003",
+  "Projects" : [ {
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System (EOS), Aura"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "NICKOLAY",
+    "MiddleName" : "A",
+    "LastName" : "KROTKOV, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "NASA", "Goddard Space Flight Center", "Mailstop 613.3" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5553"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5903"
+      }, {
+        "Type" : "Email",
+        "Value" : "Nickolay.A.Krotkov@nasa.gov"
+      } ]
+    }
+  }, {
+    "Roles" : [ "Investigator" ],
+    "FirstName" : "PEPIJN",
+    "LastName" : "VEEFKIND, PH. D",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "KNMI", "P.O.Box 201" ],
+        "City" : "De Bilt",
+        "StateProvince" : "AE",
+        "PostalCode" : "3730",
+        "Country" : "NL"
+      } ],
+      "ContactMechanisms" : [ ]
+    }
+  }, {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "JENNIFER",
+    "MiddleName" : "C",
+    "LastName" : "WEI",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center, Code 610.2, NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-6558"
+      }, {
+        "Type" : "Email",
+        "Value" : "jennifer.c.wei@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Earth Observation Satellites",
+    "ShortName" : "Aura",
+    "LongName" : "Earth Observing System, Aura",
+    "Instruments" : [ {
+      "ShortName" : "OMI",
+      "LongName" : "Ozone Monitoring Instrument"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "HDF-EOS5",
+      "Fees" : "None"
+    } ]
+  }
+}

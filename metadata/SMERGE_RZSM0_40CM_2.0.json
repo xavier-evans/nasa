@@ -1,0 +1,234 @@
+{
+  "DataLanguage" : "English",
+  "AncillaryKeywords" : [ "Hydrology" ],
+  "CollectionCitations" : [ {
+    "Creator" : "Crow, Wade (USDA ARS) and K. Tobin (Texas A&M IU)",
+    "DataPresentationForm" : "Digital Science Data",
+    "OnlineResource" : {
+      "Linkage" : "https://disc.gsfc.nasa.gov/datacollection/SMERGE_RZSM0_40CM_2.0.html"
+    },
+    "Publisher" : "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+    "Title" : "Smerge-Noah-CCI root zone soil moisture 0-40 cm L4 daily 0.125 x 0.125 degree V2.0",
+    "SeriesName" : "SMERGE_RZSM0_40CM",
+    "ReleaseDate" : "2018-11-16T00:00:00.000Z",
+    "Version" : "2.0",
+    "ReleasePlace" : "Greenbelt, Maryland, USA"
+  } ],
+  "SpatialExtent" : {
+    "GranuleSpatialRepresentation" : "CARTESIAN",
+    "HorizontalSpatialDomain" : {
+      "Geometry" : {
+        "CoordinateSystem" : "CARTESIAN",
+        "BoundingRectangles" : [ {
+          "WestBoundingCoordinate" : -125,
+          "NorthBoundingCoordinate" : 53,
+          "EastBoundingCoordinate" : -67,
+          "SouthBoundingCoordinate" : 25
+        } ]
+      }
+    }
+  },
+  "CollectionProgress" : "COMPLETE",
+  "ScienceKeywords" : [ {
+    "Category" : "EARTH SCIENCE",
+    "Topic" : "AGRICULTURE",
+    "Term" : "SOILS",
+    "VariableLevel1" : "SOIL MOISTURE/WATER CONTENT"
+  } ],
+  "TemporalExtents" : [ {
+    "RangeDateTimes" : [ {
+      "BeginningDateTime" : "1979-01-02T00:00:00.000Z"
+    } ],
+    "EndsAtPresentFlag" : false
+  } ],
+  "ProcessingLevel" : {
+    "Id" : "4"
+  },
+  "DOI" : {
+    "DOI" : "10.5067/PAVQY1KHTMUT"
+  },
+  "ShortName" : "SMERGE_RZSM0_40CM",
+  "EntryTitle" : "Smerge-Noah-CCI root zone soil moisture 0-40 cm L4 daily 0.125 x 0.125 degree V2.0 (SMERGE_RZSM0_40CM) at GES DISC",
+  "PublicationReferences" : [ {
+    "Author" : "Tobin, K. J., W. T. Crow, J. Dong, and M. E. Bennett",
+    "PublicationDate" : "2019-01-01T00:00:00.000Z",
+    "Title" : "Validation of a New Root-Zone Soil Moisture Product: Soil MERGE",
+    "Series" : "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "Volume" : "12",
+    "Pages" : "3351-3365",
+    "DOI" : {
+      "DOI" : "10.1109/JSTARS.2019.2930946"
+    }
+  }, {
+    "Author" : "Tobin, K.J., R. Torres, W. Crow, and M.E. Bennett",
+    "PublicationDate" : "2017-01-01T00:00:00.000Z",
+    "Title" : "Multi-decadal analysis of root-zone soil moisture applying the exponential filter across CONUS",
+    "Series" : "Hydrol. Earth Syst. Sci.",
+    "Volume" : "21",
+    "Pages" : "4403-4417",
+    "DOI" : {
+      "DOI" : "10.5194/hess-21-4403-2017"
+    }
+  } ],
+  "Quality" : "The data are provisional and subject to change as model improvements are implemented and new input data sets become available.",
+  "ISOTopicCategories" : [ "CLIMATOLOGY/METEOROLOGY/ATMOSPHERE" ],
+  "AccessConstraints" : {
+    "Description" : "None"
+  },
+  "RelatedUrls" : [ {
+    "Description" : "SMERGE root-zone soil moisture 0 - 40 cm layer, Sep. 27, 1981",
+    "URL" : "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SMERGE_RZSM0_40CM_2.0.png",
+    "URLContentType" : "VisualizationURL",
+    "Type" : "GET RELATED VISUALIZATION"
+  }, {
+    "Type" : "DATA SET LANDING PAGE",
+    "URL" : "https://disc.gsfc.nasa.gov/datacollection/SMERGE_RZSM0_40CM_2.0.html",
+    "Description" : "Access the dataset landing page from the GES DISC website.",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "Type" : "GET DATA",
+    "Subtype" : "DATA TREE",
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/SMERGE/SMERGE_RZSM0_40CM.2.0/",
+    "Description" : "Access the data via HTTPS.",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "GET DATA",
+    "Subtype" : "Earthdata Search",
+    "URL" : "https://search.earthdata.nasa.gov/search?q=SMERGE_RZSM0_40CM",
+    "Description" : "Use the Earthdata Search Client to find and retrieve data sets across multiple data centers.",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "GET RELATED VISUALIZATION",
+    "Subtype" : "GIOVANNI",
+    "URL" : "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=SMERGE_RZSM0_40CM",
+    "Description" : "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+    "URLContentType" : "VisualizationURL"
+  }, {
+    "Type" : "USE SERVICE API",
+    "Subtype" : "OPENDAP DATA",
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/opendap/SMERGE/SMERGE_RZSM0_40CM.2.0/",
+    "Description" : "Access the data via the OPeNDAP protocol.",
+    "URLContentType" : "DistributionURL"
+  }, {
+    "Type" : "VIEW RELATED INFORMATION",
+    "Subtype" : "READ-ME",
+    "URL" : "https://hydro1.gesdisc.eosdis.nasa.gov/data/SMERGE/SMERGE_RZSM0_40CM.2.0/doc/README_SMERGE2.pdf",
+    "Description" : "README Document",
+    "URLContentType" : "PublicationURL"
+  }, {
+    "Type" : "PROJECT HOME PAGE",
+    "URL" : "https://www.tamiu.edu/cees/smerge/overview.shtml",
+    "Description" : "SMERGE Product Overview",
+    "URLContentType" : "CollectionURL"
+  }, {
+    "Type" : "VIEW RELATED INFORMATION",
+    "Subtype" : "HOW-TO",
+    "URL" : "https://disc.gsfc.nasa.gov/information/howto?tags=hydrology",
+    "Description" : "How to read and plot the data.",
+    "URLContentType" : "PublicationURL"
+  } ],
+  "DataDates" : [ {
+    "Date" : "2018-11-01T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2018-11-01T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "Abstract" : "Smerge-Noah-CCI root zone soil moisture 0-40 cm L4 daily 0.125 x 0.125 degree V2.0 is a multi-decadal root-zone soil moisture product. Smerge is developed by merging the North American Land Data Assimilation System (NLDAS) land surface model output with surface satellite retrievals from the European Space Agency Climate Change Initiative. The data have a 0.125 degree resolution at a daily time-step, covering the entire continental United States and spanning nearly four decades (January 1979 to May 2019).\n\nThis data product contains root-zone soil moisture of 0 - 40 cm layer, CCI derived soil moisture anomalies of 0-40 cm layer, and a soil moisture data estimation flag.",
+  "LocationKeywords" : [ {
+    "Category" : "CONTINENT",
+    "Type" : "NORTH AMERICA"
+  } ],
+  "MetadataDates" : [ {
+    "Date" : "2018-10-12T00:00:00.000Z",
+    "Type" : "CREATE"
+  }, {
+    "Date" : "2020-05-20T00:00:00.000Z",
+    "Type" : "UPDATE"
+  } ],
+  "VersionDescription" : "SMERGE version 2.0 is an improvement of the previous version (v1.0) of the dataset. The  main differences between SMERGE v1.0 and SMERGE v2.0 are the addition of a new variable, CCI derived soil moisture anomalies of 0-40 cm layer, and an additional year of data for 2016.",
+  "Version" : "2.0",
+  "Projects" : [ {
+    "ShortName" : "SMERGE",
+    "LongName" : "Root-zone Soil moisture MERGE Project"
+  } ],
+  "UseConstraints" : {
+    "Description" : "The Earth Observing System Data and Information System (EOSDIS) data use policy for NASA data can be accessed at https://earthdata.nasa.gov/earth-observation-data/data-use-policy. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/information/documents?title=data-policy."
+  },
+  "ContactPersons" : [ {
+    "Roles" : [ "Metadata Author" ],
+    "FirstName" : "Hualan",
+    "LastName" : "Rui",
+    "ContactInformation" : {
+      "Addresses" : [ {
+        "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+        "City" : "Greenbelt",
+        "StateProvince" : "MD",
+        "PostalCode" : "20771",
+        "Country" : "USA"
+      } ],
+      "ContactMechanisms" : [ {
+        "Type" : "Telephone",
+        "Value" : "301-614-5200"
+      }, {
+        "Type" : "Fax",
+        "Value" : "301-614-5268"
+      }, {
+        "Type" : "Email",
+        "Value" : "Hualan.Rui@nasa.gov"
+      } ]
+    }
+  } ],
+  "DataCenters" : [ {
+    "Roles" : [ "ARCHIVER" ],
+    "ShortName" : "NASA/GSFC/SED/ESD/GCDC/GESDISC",
+    "LongName" : "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Global Change Data Center, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+    "ContactInformation" : {
+      "RelatedUrls" : [ {
+        "URLContentType" : "DataCenterURL",
+        "Type" : "HOME PAGE",
+        "URL" : "https://disc.gsfc.nasa.gov/",
+        "Description" : "NASA GES DISC Website"
+      } ]
+    },
+    "ContactGroups" : [ {
+      "Roles" : [ "Data Center Contact" ],
+      "GroupName" : "GES DISC HELP DESK SUPPORT GROUP",
+      "ContactInformation" : {
+        "Addresses" : [ {
+          "StreetAddresses" : [ "Goddard Earth Sciences Data and Information Services Center", "Code 610.2", "NASA Goddard Space Flight Center" ],
+          "City" : "Greenbelt",
+          "StateProvince" : "MD",
+          "PostalCode" : "20771",
+          "Country" : "USA"
+        } ],
+        "ContactMechanisms" : [ {
+          "Type" : "Telephone",
+          "Value" : "301-614-5224"
+        }, {
+          "Type" : "Fax",
+          "Value" : "301-614-5268"
+        }, {
+          "Type" : "Email",
+          "Value" : "gsfc-dl-help-disc@mail.nasa.gov"
+        } ]
+      }
+    } ]
+  } ],
+  "Platforms" : [ {
+    "Type" : "Models/Analyses",
+    "ShortName" : "SMERGE",
+    "LongName" : "NLDAS-Noah and ESA-CCI Merged Soil Moisture",
+    "Instruments" : [ {
+      "ShortName" : "NOT APPLICABLE"
+    } ]
+  } ],
+  "ArchiveAndDistributionInformation" : {
+    "FileDistributionInformation" : [ {
+      "FormatType" : "Native",
+      "Media" : [ "Online Archive" ],
+      "Format" : "netCDF",
+      "Fees" : "No Fee"
+    } ]
+  }
+}
